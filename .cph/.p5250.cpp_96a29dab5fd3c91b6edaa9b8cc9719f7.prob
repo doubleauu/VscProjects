@@ -1,0 +1,1 @@
+{"name":"Local: p5250","url":"c:\\VscProjects\\p5250.cpp","tests":[{"id":1762595083770,"input":"7\n1 1\n1 5\n1 3\n2 3\n2 3\n2 3\n2 3","output":"3\n1\n5\nEmpty\n"},{"id":1762598528443,"input":"4\n1 1\n1 1\n2 4\n2 6","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\VscProjects\\p5250.cpp","group":"local","local":true}

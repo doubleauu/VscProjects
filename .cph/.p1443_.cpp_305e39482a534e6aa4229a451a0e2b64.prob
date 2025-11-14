@@ -1,0 +1,1 @@
+{"name":"Local: p1443_","url":"c:\\VscProjects\\p1443_.cpp","tests":[{"id":1763088087544,"input":"3 3 1 1","output":"0 3 2    \n3 -1 1    \n2 1 4    "}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\VscProjects\\p1443_.cpp","group":"local","local":true}

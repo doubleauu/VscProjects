@@ -1,0 +1,1 @@
+{"name":"Local: p1226","url":"c:\\VscProjects\\p1226.cpp","tests":[{"id":1761188473790,"input":"2 99999999 9","output":"2^10 mod 9=7\n"},{"id":1761273861009,"input":"156431 154941233 467107951\n","output":"156431^154941233 mod 467107951=216052475\n\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\VscProjects\\p1226.cpp","group":"local","local":true}

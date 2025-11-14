@@ -1,0 +1,1 @@
+{"name":"Local: p1618","url":"c:\\VscProjects\\p1618.cpp","tests":[{"id":1761911840791,"input":"1 2 3","output":"192 384 576\n219 438 657\n273 546 819\n327 654 981"},{"id":1761911957901,"input":"1 3 4","output":"No！！！"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\VscProjects\\p1618.cpp","group":"local","local":true}

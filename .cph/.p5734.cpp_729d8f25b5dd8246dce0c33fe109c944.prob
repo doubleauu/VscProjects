@@ -1,0 +1,1 @@
+{"name":"Local: p5734","url":"c:\\VscProjects\\p5734.cpp","tests":[{"id":1761039063353,"input":"4\nILove\n1 Luogu\n2 5 5\n3 3 guGugu\n4 gu","output":"ILoveLuogu\nLuogu\nLuoguGugugu\n3"},{"id":1761040754827,"input":"1\niloveu\n2 3 2","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\VscProjects\\p5734.cpp","group":"local","local":true}
