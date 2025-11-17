@@ -10,7 +10,7 @@ int main() {
     cin >> n >> s;
 
     for(char& ch : s) {
-        cout << char((ch - 'a' + n) % 26 + 'a');
+        cout << char((ch - 'a' + n) % 26 + 'a'); //ch始终保持在小写字母编码范围内
     }
 
     return 0;

@@ -4,19 +4,14 @@ using namespace std;
 int main() {
     int n, k;
     cin >> n >> k;
-    vector<int> a(n);
-    for(int i = 0; i < n; i++) {
+    vector<int> a(n+1);
+    for(int i = 1; i <= n; i++) {
         cin >> a[i];
     }
-    for(int i = 0; i < n/2; i++) {
-        if(a[i] > a[n-i-1]) {
-            a[i] ^= a[n-i-1];
-            a[n-i-1] ^= a[i];
-            a[i] ^= a[n-i-1];
-        }
-    }
+    
+    sort(a.begin(), a.end());
     int ans = 0;
-    for(int i = 0; i < n-1; i++) {
+    for(int i = 1; i < n; i++) {
         while(a[i] != 0) {
             if(a[i] >= k) {
                 a[i] -= k;
