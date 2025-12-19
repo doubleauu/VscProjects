@@ -1,53 +1,28 @@
-//使用单调队列优化区间最大值；维护一个单调递减的队列
+// Problem: 小数字
+// Contest: NowCoder
+// URL: https://ac.nowcoder.com/acm/contest/125447/B
+// Memory Limit: 512 MB
+// Time Limit: 2000 ms
+// 
+// Powered by CP Editor (https://cpeditor.org)
+
 
 #include <bits/stdc++.h>
 using namespace std;
-
-int a[200005];
-int b[200005];
-int ans = INT_MIN;
-deque<int> dq;
-deque<int> site;
+typedef long long ll;
 
 int main() {
-    int N, L, R;
-    cin >> N >> L >> R;
-    fill(b, b+N+5, INT_MIN);
-
-    for(int i = 0; i <= N; i++) {
-        cin >> a[i];
-    }
-
-    b[0] = a[0] = 0;
-
-    // for(int i = 1; i <= N; i++) {
-    //     for(int j = max(0,i-R); j <= i-L; j++) {  //保证从至少从0点开始内层循环
-    //         if(b[j] != INT_MIN) {   //遍历能到达该点的所有状态；同时需要保证该状态可以到达（使用INT_MIN标记不能到达的点）
-    //             b[i] = max(b[i],b[j]+a[i]);
-    //         }
-    //     }
-    // }
-    for(int i = L; i <= N; i++) {
-        // for(int j = max(0,i-R); j <= i-L; j++) {
-        int j = max(0,i-L);
-            while(!dq.empty() && b[j] > dq.back()) {   //使用单调队列优化最值判断，复杂度可达O(n);
-                dq.pop_back();
-                site.pop_back();
-            }
-            dq.push_back(b[j]);
-            site.push_back(j);
-        // }
-        if(!dq.empty()) b[i] = dq.front() + a[i];
-        if(site.front() <= i-R) {  //出队条件；
-            dq.pop_front();
-            site.pop_front();
-        }
-    }
-    
-
-    for(int i = N-R+1; i <= N && i >=0; i++) {  
-        ans = max(ans, b[i]);
-    }
-    cout << ans;
-
+	int T;
+	cin >> T;
+	while(T--) {
+		long long n;
+        int m;
+		cin >> n >> m;
+		while(m > 0 && n >= 4) {
+			n = (long long)ceill(sqrtl((long double)n));
+			m--;
+		}
+		n -= m;
+		cout << n << endl;
+	}
 }
