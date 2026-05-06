@@ -1,0 +1,50 @@
+{
+  "samples": [
+    {
+      "id": 1,
+      "title": "样例 1",
+      "input": "1 2",
+      "output": "3",
+      "timeLimit": 1000,
+      "showInput": true,
+      "showOutput": true,
+      "inputType": "userinput",
+      "outputType": "userinput",
+      "freopenInputFile": "",
+      "freopenOutputFile": "",
+      "result": {
+        "status": "AC",
+        "output": "3",
+        "outputSizeBytes": 1,
+        "outputExpanded": false,
+        "time": 582,
+        "usedSpj": false
+      }
+    },
+    {
+      "id": 2,
+      "title": "样例 2",
+      "input": "10230 21312",
+      "output": "31542",
+      "timeLimit": 1000,
+      "showInput": true,
+      "showOutput": true,
+      "inputType": "userinput",
+      "outputType": "userinput",
+      "freopenInputFile": "",
+      "freopenOutputFile": "",
+      "result": {
+        "status": "AC",
+        "output": "31542",
+        "outputSizeBytes": 5,
+        "outputExpanded": false,
+        "time": 20,
+        "usedSpj": false
+      }
+    }
+  ],
+  "globalSettings": {
+    "useTestlib": false,
+    "spjPath": ""
+  }
+}

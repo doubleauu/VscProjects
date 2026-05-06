@@ -1,0 +1,1 @@
+{"name":"Local: 区间翻转","url":"c:\\VscProjects\\牛客刷题\\区间翻转.cpp","tests":[{"id":1773198615856,"input":"5 3\n1 3\n2 4\n2 5","output":"3 5 2 1 4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\VscProjects\\牛客刷题\\区间翻转.cpp","group":"local","local":true}

@@ -1,0 +1,34 @@
+{
+  "samples": [
+    {
+      "id": 1,
+      "title": "样例 1",
+      "input": "无\n",
+      "output": "Algorithms change the world.\n",
+      "timeLimit": 2000,
+      "showInput": true,
+      "showOutput": true,
+      "inputType": "userinput",
+      "outputType": "userinput",
+      "freopenInputFile": "",
+      "freopenOutputFile": ""
+    },
+    {
+      "id": 2,
+      "title": "样例 2",
+      "input": "无\n",
+      "output": "Algorithms change the world.\n",
+      "timeLimit": 2000,
+      "showInput": true,
+      "showOutput": true,
+      "inputType": "userinput",
+      "outputType": "userinput",
+      "freopenInputFile": "",
+      "freopenOutputFile": ""
+    }
+  ],
+  "globalSettings": {
+    "useTestlib": false,
+    "spjPath": ""
+  }
+}

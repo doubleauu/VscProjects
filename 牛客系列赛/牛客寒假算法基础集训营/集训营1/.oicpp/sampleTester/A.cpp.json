@@ -1,0 +1,28 @@
+{
+  "samples": [
+    {
+      "id": 1,
+      "inputType": "userinput",
+      "outputType": "userinput",
+      "input": "3\n0\n100 100 100 0 100 100 100\n0\n100 100 100 0 50 100 100\n34\n24 54 10 12 33 1 99",
+      "output": "1\n994344961\n20591129",
+      "timeLimit": 1000,
+      "freopenInputFile": "",
+      "freopenOutputFile": "",
+      "useTestlib": false,
+      "spjPath": "",
+      "result": {
+        "status": "AC",
+        "output": "1\r\n994344961\r\n20591129\r\n",
+        "outputSizeBytes": 24,
+        "outputExpanded": false,
+        "time": 16,
+        "usedSpj": false
+      }
+    }
+  ],
+  "globalSettings": {
+    "useTestlib": false,
+    "spjPath": ""
+  }
+}

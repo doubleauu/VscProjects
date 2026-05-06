@@ -1,0 +1,1 @@
+{"name":"Local: P1048 [NOIP 2005 普及组] 采药","url":"c:\\VscProjects\\henu新生题单1\\P1048 [NOIP 2005 普及组] 采药.cpp","tests":[{"id":1763692985666,"input":"70 3\n71 100\n69 1\n1 2\n","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"c:\\VscProjects\\henu新生题单1\\P1048 [NOIP 2005 普及组] 采药.cpp","group":"local","local":true}

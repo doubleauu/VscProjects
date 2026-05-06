@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "C/C++: 调试活动文件",
+            "type": "cppdbg",
+            "request": "launch",
+            // 调试目标与 tasks.json 的输出保持一致，统一指向 build\a.exe。
+            "program": "${workspaceFolder}\\build\\a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            // 这里的 gdb.exe 路径同样是本机路径，换电脑时需要同步修改。
+            "miDebuggerPath": "C:\\Program Files (x86)\\cpeditor\\mingw64\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: g++.exe 生成活动文件"
+        }
+    ]
+}
